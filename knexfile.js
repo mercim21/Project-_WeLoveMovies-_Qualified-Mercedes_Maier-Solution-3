@@ -9,7 +9,7 @@ const {
 module.exports = {
   development: {
     client: "pg",
-    connection: DATABASE_URL,
+    connection: 'postgres://qbqiitgi:jiCUH4Mu9Zxeb3m9JYNn1MgKGqoZmiWw@drona.db.elephantsql.com/qbqiitgi',
     pool: { min: 0, max: 5 },
     migrations: {
       directory: path.join(__dirname, "src", "db", "migrations"),
